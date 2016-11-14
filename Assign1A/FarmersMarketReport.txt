@@ -3,58 +3,68 @@
 ================================================================ 
 Collins Farm:            43900 tomatoes @0.67 each totaling $29413.00
 
-Smith Farms:             34910 cassavas @0.99 each totaling $34560.90
+Bart Smith Farms:        34910 cassavas @0.99 each totaling $34560.90
 
-Farms:                   117 coconuts @0.54 each totaling $63.18
+Allen Farms:             117 coconuts @0.54 each totaling $63.18
 
-Run Farm:                103 taros @0.65 each totaling $66.95
+River Run Farm:          103 taros @0.65 each totaling $66.95
 
-Top Farm:                109 artichokes @2.23 each totaling $243.07
+Big Top Farm:            109 artichokes @2.23 each totaling $243.07
 
-Top Farm:                777 crosns @0.28 each totaling $217.56
+Big Top Farm:            777 crosns @0.28 each totaling $217.56
 
-Top Farm:                9739 cucumbers @0.53 each totaling $5161.67
+Big Top Farm:            9739 cucumbers @0.53 each totaling $5161.67
 
-Farm:                    108 crosns @0.33 each totaling $35.64
+Marble Farm:             108 crosns @0.33 each totaling $35.64
 
-For Life Inc.:           106 carrots @0.87 each totaling $92.22
+Food For Life Inc.:      106 carrots @0.87 each totaling $92.22
 
-For Life Inc.:           86 coconuts @0.84 each totaling $72.24
+Food For Life Inc.:      86 coconuts @0.84 each totaling $72.24
 
-Farms:                   121 parsnips @0.22 each totaling $26.62
+Johnson Farms:           121 parsnips @0.22 each totaling $26.62
 
-Farm:                    111 beets @0.12 each totaling $13.32
+A1 Farm:                 111 beets @0.12 each totaling $13.32
 
-Farm:                    5591 taros @0.72 each totaling $4025.52
+A1 Farm:                 5591 taros @0.72 each totaling $4025.52
 
-Tunes Farm:              102 onions @0.49 each totaling $49.98
+Looney Tunes Farm:       102 onions @0.49 each totaling $49.98
 
-Creek Farm:              103 rhubarbs @1.21 each totaling $124.63
+Wolfe Creek Farm:        103 rhubarbs @1.21 each totaling $124.63
 
-Creek Farm:              199 radishes @0.71 each totaling $141.29
+Wolfe Creek Farm:        199 radishes @0.71 each totaling $141.29
 
-Farm:                    47 pickles @0.68 each totaling $31.96
+James Farm:              47 pickles @0.68 each totaling $31.96
 
-Farms:                   75 walnuts @2.50 each totaling $187.50
+Weaver Farms:            75 walnuts @2.50 each totaling $187.50
 
-Farms:                   500 pickles @0.59 each totaling $295.00
+Weaver Farms:            500 pickles @0.59 each totaling $295.00
 
-Boy Farms:               670000 peanuts @0.79 each totaling $529300.00
+Pore Boy Farms:          670000 peanuts @0.79 each totaling $529300.00
 
-Farms Inc.:              809 apples @0.90 each totaling $728.10
+Rutherford Farms Inc.:   809 apples @0.90 each totaling $728.10
 
-Farms Inc.:              659 pickles @0.70 each totaling $461.30
+Rutherford Farms Inc.:   659 pickles @0.70 each totaling $461.30
 
-Farm:                    129000 figs @0.44 each totaling $56760.00
+Javens Farm:             129000 figs @0.44 each totaling $56760.00
 
-Farms:                   8001 yams @1.09 each totaling $8721.09
+Harrison Farms:          8001 yams @1.09 each totaling $8721.09
 
-Farms Inc.:              701 potatoes @0.89 each totaling $623.89
+Setzer Farms Inc.:       701 potatoes @0.89 each totaling $623.89
 
-Farms Inc.:              651 tomatoes @0.69 each totaling $449.19
+Setzer Farms Inc.:       651 tomatoes @0.69 each totaling $449.19
 
-Peak Farm:               1045 turnips @0.79 each totaling $825.55
+Pikes Peak Farm:         1045 turnips @0.79 each totaling $825.55
 
-Area Farms:              10001 radishes @0.69 each totaling $6900.69
+Holland Area Farms:      10001 radishes @0.69 each totaling $6900.69
 
-Grand Total:             917671 items totaling $679592.06
+
+
+
+
+
+
+
+
+:                10001  @0.69 each totaling $6900.69
+
+Grand Total:             927672 items totaling $686492.75

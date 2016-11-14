@@ -91,7 +91,7 @@ bool readAndWrite(ifstream& inputFile, ofstream& outputFile, int& itemTotal, flo
                << " each totaling $" << quantity * price << endl << endl;
 
     // ignores excess spaces
-    inputFile.ignore(std::numeric_limits<std::streamsize>::max(), ' ');
+    inputFile.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
     // returns for end of file
     if(inputFile.eof())

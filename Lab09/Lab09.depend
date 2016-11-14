@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1478810469 source:e:\lilith\documents\cs i hw\lab09\main.cpp
+	<iostream>
+	<iomanip>
+	"calcAverage.hpp"
+	"getEmployees.hpp"
+	"getDaysOut.hpp"
+
+1478810053 e:\lilith\documents\cs i hw\lab09\calcaverage.hpp
+
+1478810363 e:\lilith\documents\cs i hw\lab09\getemployees.hpp
+
+1478810455 e:\lilith\documents\cs i hw\lab09\getdaysout.hpp
+

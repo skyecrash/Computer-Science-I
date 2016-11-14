@@ -1,0 +1,79 @@
+// Program id: CSLab08.txt
+// This is our template for CS Lab 08
+// Efficiency practice program
+// This document has three cases that represent portions of programs
+// that need some help; they are inefficient.
+// Study the code and rewrite or remove portions of the code
+// to make it more efficient. Your goal should be to decrease the number 
+// of units (operations) by as much as possible. 
+// We will assume a fictional chip where everything takes one cycle.
+
+// UNITS:
+
+// Mathematics (1 cycle)
+// Assignment (1 cycle)
+// Logical operations such compare operations, etc… (1 cycle)
+// Return (1 cycle)
+//  Hint: simply update this code for your answer by removing 
+//  the operations (code) that you find to be inefficient (unnecessary)...
+//
+//
+// CASE 1
+// Assume all variables and constants were defined, etc.
+// This should be an easy one (short and sweet too)
+
+   for (i = 0; i < max; i++)
+      myArray[i] += sqrt(PI/2); 
+
+//
+//	  
+// CASE 2
+// A function that should make you wince
+
+int findHighest(double s1,double s2,double s3,double s4,double s5)
+ {
+    double score = (s1 > s2) ? s1 : s2;
+	score = (score < s3) ? s3 : score;
+	score = (score < s4) ? s4 : score;
+    return ((score < s5) ? s5 : score);
+ }
+
+//
+// 
+// CASE 3
+// A naïve program (hint: is maybe k totally useless?)
+//                        if so, all the instructions are too. 
+//                  look for similar useless code and counters...
+do
+{
+   cout << "Would you like to:" << endl
+        << "1. Calculate the Area of a Circle 12 times" << endl
+        << "2. Calculate the Area of a Rectangle 10 times" << endl
+        << "3. Quit" << endl;            
+   cin >> selection;
+
+   switch(selection)
+   {
+	   case 1 :
+		  for (int i = 0; i < 12; i++)  
+		  { 
+			cout << "Enter a radius: ";
+			cin >> radius;
+			cout << "The area of your circle is " << 3.14159 * pow(radius, 2.0) << endl;
+		  }
+		  break;
+	   case 2 :
+		  for (int i = 0; i < 10; i++)   
+		  {
+			cout << "Enter a length: ";
+			cin >> length;
+			cout << "Enter a width: ";
+			cin >> width;
+			cout << "The area of your rectangle is " << length * width << endl;
+		  }
+		  break;
+		default :
+		  cout << "This was not a valid selection." << endl;
+   }
+
+} while (selection != 3);

@@ -24,7 +24,7 @@ Javens Farm, 129000 figs .44
 Harrison Farms, 8001 yams 1.09
 Setzer Farms Inc., 701 potatoes .89
 Setzer Farms Inc., 651 tomatoes .69
-Pikes Peak Farm,  1045 turnips .79
+Pikes Peak Farm, 1045 turnips .79
 Holland Area Farms, 10001 radishes .69
 
 

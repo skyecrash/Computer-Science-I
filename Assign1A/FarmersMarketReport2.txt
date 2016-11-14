@@ -1,0 +1,25 @@
+================================================================ 
+=                 FARMER'S MARKET INVENTORY                    =
+================================================================ 
+1 load of apples was delivered
+1 load of artichokes was delivered
+1 load of beets was delivered
+1 load of carrots was delivered
+1 load of cassavas was delivered
+2 loads of coconuts were delivered
+2 loads of crosns were delivered
+1 load of cucumbers was delivered
+1 load of figs was delivered
+1 load of onions was delivered
+1 load of parsnips was delivered
+1 load of peanuts was delivered
+3 loads of pickles were delivered
+1 load of potatoes was delivered
+2 loads of radishes were delivered
+1 load of rhubarbs was delivered
+2 loads of taros were delivered
+2 loads of tomatoes were delivered
+1 load of turnips was delivered
+1 load of walnuts was delivered
+
+There were 20 items contributed to this week's event.
