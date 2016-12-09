@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1479701274 source:e:\lilith\documents\cs i hw\assign8-a\main.cpp
+	<iostream>
+	<fstream>
+	<limits>
+	<string>
+	<iomanip>
+	<cctype>
+	"transcrSent.hpp"
+
+1479700476 e:\lilith\documents\cs i hw\assign8-a\topiglatin.hpp
+
+1479701804 e:\lilith\documents\cs i hw\assign8-a\transcrsent.hpp
+	"getWord.hpp"
+	"toPigLatin.hpp"
+
+1479701888 e:\lilith\documents\cs i hw\assign8-a\getword.hpp
+

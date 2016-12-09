@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1480968871 source:e:\lilith\documents\cs i hw\assign9a\main.cpp
+	<iostream>
+	<cstdlib>
+	<cstring>
+	"reverseString.hpp"
+
+1480968970 e:\lilith\documents\cs i hw\assign9a\reversestring.hpp
+

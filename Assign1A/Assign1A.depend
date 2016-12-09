@@ -1,6 +1,9 @@
 # depslib dependency file v1.0
-1478724676 source:e:\lilith\documents\cs i hw\assign1a\main.cpp
+1478923221 source:e:\lilith\documents\cs i hw\assign1a\main.cpp
 	<iostream>
+	<fstream>
+	<iomanip>
+	<limits>
 
 1473651913 source:e:\lilith\documents\cs i hw\assign1a\assign1b.cpp
 	<iostream>

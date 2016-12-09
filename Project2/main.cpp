@@ -22,22 +22,25 @@ using std::string;
 const int BALLOTS = 100;
 const int AMENDS = 10;
 
-int readVotes(char [][AMENDS], string [], ifstream&);
-int writeVotes(char [][AMENDS], string [], ofstream&);
+int readVotes(char [][AMENDS], string [], int [], ifstream&, int&);
+void writeVotes(char [][AMENDS], string [], int [], ofstream&, int);
 void countVotes(char [][AMENDS], string [], int, int);
 
 int main()
 {
-    char amendVotes[BALLOTS][AMENDS];
-    string presVotes[BALLOTS];
-
     ifstream ballots("BallotsHospital.txt");
 
     if(!ballots.fail())
     {
+        char amendVotes[BALLOTS][AMENDS];
+        string presVotes[BALLOTS];
+        int ID[BALLOTS];
+        int totalBallots = 0;
+
         ofstream counted("counted.txt");
-        int totalBallots = readVotes(amendVotes, presVotes, ballots);
-        int goodBallots = writeVotes(amendVotes, presVotes, counted);
+
+        int goodBallots = readVotes(amendVotes, presVotes, ID, ballots, totalBallots);
+        writeVotes(amendVotes, presVotes, ID, counted, goodBallots);
         countVotes(amendVotes, presVotes, goodBallots, totalBallots);
 
         counted.close();
@@ -51,17 +54,20 @@ int main()
 // FUNCTION BLOCK //
 
 /* Reads the given ballot ifstream into the char and string arrays.
-   pre-cond: takes a properly opened input filestream and declared
-             arrays of strings and chars
-   postcond: returns the total number of ballots in the file */
-int readVotes(char amendVotes[][AMENDS], string presVotes[], ifstream &ballots)
+   pre-cond: takes a properly opened input filestream, declared
+             arrays of strings, chars, and ints, and an initialized int&
+   postcond: returns the number of good ballots in the file, updates the
+             number of total ballots */
+int readVotes(char amendVotes[][AMENDS], string presVotes[], int ID[], ifstream &ballots, int &totalBallots)
 {
-    int totalBallots = 0, i = 0, lastID = 0, currentID = 0;
+    int i = 0, lastID = -1, currentID = 0, goodBallots = 0;
 
     while(!((ballots >> currentID).eof()))
     {
         if(currentID != lastID)
         {
+            ID[i] = currentID;
+
             for(int j = 0; j < AMENDS; j++)
             {
                 ballots >> amendVotes[i][j];
@@ -69,6 +75,7 @@ int readVotes(char amendVotes[][AMENDS], string presVotes[], ifstream &ballots)
 
             std::getline(ballots, presVotes[i], '\n');
             i++;
+            goodBallots++;
         }
         else
         {
@@ -79,31 +86,27 @@ int readVotes(char amendVotes[][AMENDS], string presVotes[], ifstream &ballots)
         lastID = currentID;
     }
 
-    return totalBallots;
+    return goodBallots;
 }
 
 /* Writes the arrays of votes into an output file.
-   pre-cond: takes a properly opened output filestream, and declared
-             and initialized arrays of string and chars
-   postcond: returns the number of good ballots that were counted */
-int writeVotes(char amendVotes[][AMENDS], string presVotes[], ofstream &counted)
+   pre-cond: takes a properly opened output filestream, declared
+             and initialized arrays of strings, chars, and ints,
+             and one initialized int
+   postcond: counted.txt contains the non-cheat ballots */
+void writeVotes(char amendVotes[][AMENDS], string presVotes[], int ID[], ofstream &counted, int goodBallots)
 {
-    int goodBallots = 0, i = 0;
-
-    while(amendVotes[i][0] == 'Y' || amendVotes[i][0] == 'N')
+    for(int i = 0; i < goodBallots; i++)
     {
+        counted << ID[i];
+
         for(int j = 0; j < AMENDS; j++)
         {
             counted << static_cast<char>(amendVotes[i][j]);
         }
 
         counted << presVotes[i] << endl;
-
-        goodBallots++;
-        i++;
     }
-
-    return goodBallots;
 }
 
 /* Counts the votes and determine winners.

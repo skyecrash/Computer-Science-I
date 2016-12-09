@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1480974991 source:e:\lilith\documents\cs i hw\assign9b\main.cpp
+	<iostream>
+	<cstdlib>
+	<memory>
+	<cctype>
+	"newCopy.hpp"
+	"displayArray.hpp"
+
+1480972988 e:\lilith\documents\cs i hw\assign9b\newcopy.hpp
+
+1480974971 e:\lilith\documents\cs i hw\assign9b\displayarray.hpp
+

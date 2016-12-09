@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1481322801 source:e:\lilith\documents\cs i hw\project3\main.cpp
+	<iostream>
+	<iomanip>
+	<fstream>
+
